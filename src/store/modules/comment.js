@@ -1,17 +1,19 @@
-import * as types from '../mutation-type'
+import * as types from '../mutation-types'
 
 const state = {
   all: [
-    { text: 'foot' },
+    { text: 'fooo' },
     { text: 'barr' }
   ]
 }
-const mutation = {
+
+const mutations = {
   [types.ADD_COMMENT] (state, { text }) {
     state.all.push({ text })
   }
 }
+
 export default {
   state,
-  mutation
+  mutations
 }

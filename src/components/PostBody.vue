@@ -1,15 +1,17 @@
 <template>
-
   <div class="post-body">
-     {{ postId }}
+    {{ postId }}
   </div>
 </template>
+
 <script>
   export default {
     name: 'post-body',
     props: ['postId']
   }
 </script>
+
+
 <style scoped>
   .post-body {
     background-color: #fff;
@@ -19,5 +21,4 @@
     padding: 20px;
     line-height: 1.8;
    }
-
 </style>
